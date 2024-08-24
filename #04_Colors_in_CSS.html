@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        /***** RGB - CSS *****/
+            01 - Red - #FF 0O 00
+                       255, 0, 0
+            02 - Green - #00 FF 00     
+                          0, 255, 00
+            03 - Blue - #00 00 FF
+                        0, 0, 255
+        RGBA : RGBA is similar to RGB but includes and alpha channerl for opacity control
+        h1{color: rgba(255, 0, 0, 1)}
+
+        colorhunt.co
+
+        /***** Interview Questions *****/
+
+        01. Difference between rgb() and rgba() color notations
+        -> rbg() sets color properties without transparrency but rgba() sets color properties with transparency.
+
+        02. How can you make text color of an element fully transparent using CSS. Give an example.
+        ->
+            h1{
+                color: rgba(255, 0, 0, 0);
+            }
+
+            or,
+
+            h1{
+                color: transparent;
+            }
+
+        03. How can you set text color of an element to match the current color of another CSS property within the same 
+            element?
+        -> 
+            h1{
+                color: currentColor;
+            }
+
+        /***** CSS Bonus *****/
+
+        Graphic Designer - CSS
+
+        HSL colors (Hue, Saturation, Lightness)\
+            Hue is a degree on the color wheel from 0 to 360. 0 & 360 is red, 120 is green, and 240 is blue.
+            Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+            Lightness is also a percentage. 0% is black, 50% is neither light or dark, 100% is white
+
+            hsl(226, 84%, 17%)
+            hsla(226, 84%, 17%, 0.5)
+
+            H       Hue: pure color(Hue)
+            T       Tint: a pure color with just white added
+            S       Shade: a pure color with just black added
+            T       Tone: a pure color with just grey added
+
+            maketintsandshades.com
+            hsl(0, 0%, 94%) -> modern gray white
+    -->
+    
+</body>
+</html>
